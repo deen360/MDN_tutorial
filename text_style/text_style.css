@@ -1,0 +1,131 @@
+/* General setup */
+@font-face {
+    font-family: 'simonettablack_italic';
+    src: url('fonts/simonetta-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/simonetta-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arima_maduraimedium';
+    src: url('fonts/arimamadurai-medium-webfont.woff2') format('woff2'),
+         url('fonts/arimamadurai-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+   font-family: 'arima_maduraimedium';
+   line-height: 3rem;
+   letter-spacing: 0.1rem;
+   word-spacing: 0.2rem;
+
+  }
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+    text-align: center;
+  }
+
+  header h1 {
+    Font-size: 4rem;
+    
+    letter-spacing: 0.6rem;
+  }
+  
+  h2{
+      font-size: 3rem;
+  }
+
+  p {
+      font-size: 1.5rem;
+  }
+
+  ul, ol{
+    font-size: 1.5rem;
+  }
+
+ h2 + p{
+      text-indent: 2rem;
+  }
+
+  a:link,a:focus,a:visited {
+    color: #a66;
+    
+  }
+
+  a:hover{
+    color: rgb(228, 15, 217);
+    text-decoration: none;
+  }
+  /* for an icon for links*/
+  h2 + p a{
+      background:url(arrow.png) no-repeat 100% 0;
+      background-size: 1.5rem 1.5rem;
+      padding-right: 1.9rem;
+  }
+
+  li {
+      list-style: square;
+  }
+
+  nav ul li{
+      display: block;
+      padding: 0;
+      line-height: 5rem;
+      width: 100%;
+      outline: px;
+      border: solid 0.02rem;
+      border-color: #a66;
+      margin-top: 10px;
+      text-align: center;
+      list-style: none;
+
+  }
+
+  nav ul li a{
+    text-decoration: none;
+  }
+
+  /* WRITE YOUR CODE BELOW HERE */
